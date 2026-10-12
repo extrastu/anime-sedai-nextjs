@@ -36,11 +36,6 @@ const THEMES: { value: ThemeMode; label: string }[] = [
   { value: "light", label: "浅色" },
   { value: "dark", label: "深色" },
 ]
-const FOOTER: Record<Language, [string, string, string]> = {
-  zh: ["数据来源 bgm.tv，封面来自 Bangumi。基于 ", "egoist/anime-sedai", " (MIT) 重制"],
-  en: ["Data from bgm.tv, covers from Bangumi. Rebuilt from ", "egoist/anime-sedai", " (MIT)"],
-  ja: ["データソース：bgm.tv、カバー：Bangumi。", "egoist/anime-sedai", " (MIT) をもとに作成"],
-}
 
 /**
  * Export-only: marks the wall as `.exporting` (CSS hides the check badges, removes
@@ -248,7 +243,6 @@ export function AnimeSedai() {
     else toast.error(t("copyFailed", { error: t("unknownError") }))
   }
 
-  const [before, link, after] = FOOTER[language]
 
   return (
     <div className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 pb-16 pt-8 sm:px-6">
@@ -445,38 +439,6 @@ export function AnimeSedai() {
         />
       </section>
 
-      <p className="text-center font-mono text-xs text-ink-3">
-        {before}
-        <a
-          href="https://github.com/egoist/anime-sedai"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline underline-offset-2 hover:text-ink"
-        >
-          {link}
-        </a>
-        {after}
-      </p>
-
-      <p className="text-center font-mono text-xs text-ink-3">
-        <a
-          href="https://github.com/extrastu/anime-sedai-nextjs"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline underline-offset-2 hover:text-ink"
-        >
-          GitHub
-        </a>
-        {" · Made by "}
-        <a
-          href="https://x.com/iextrastu"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline underline-offset-2 hover:text-ink"
-        >
-          @extrastu
-        </a>
-      </p>
     </div>
   )
 }

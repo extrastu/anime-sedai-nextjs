@@ -38,7 +38,8 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <AnimeSedai />
-      <section className="mx-auto max-w-3xl px-4 pb-12 text-sm leading-relaxed text-ink-2 sm:px-6">
+      <YearIndex />
+      <section className="mx-auto max-w-6xl px-4 pb-12 text-sm leading-relaxed text-ink-2 sm:px-6">
         <h2 className="mb-2 font-display text-xl font-bold text-ink">关于动画世代</h2>
         <p>
           动画世代收录 2006 至 2025 年每年 bgm.tv（番组计划）关注度最高的前 12 部电视动画，封面来自 Bangumi。
@@ -47,8 +48,28 @@ export default function HomePage() {
         <p className="mt-2">
           榜单按播出年份归类，每一年都有独立页面，可以直接查看某一年的热门动画。
         </p>
+        <p className="mt-2">
+          本项目基于 <a href="https://opensource.org/license/mit" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink">MIT 协议</a> 开源，欢迎使用、修改和分发，详见仓库中的 LICENSE 文件。
+        </p>
       </section>
-      <YearIndex />
+      <footer className="mx-auto max-w-6xl px-4 pb-12 text-center font-mono text-xs text-ink-3 sm:px-6">
+        <p>
+          数据来源 bgm.tv，封面来自 Bangumi。基于{" "}
+          <a href="https://github.com/egoist/anime-sedai" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink">
+            egoist/anime-sedai
+          </a>{" "}
+          (MIT) 重制
+        </p>
+        <p className="mt-1">
+          <a href="https://github.com/extrastu/anime-sedai-nextjs" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink">
+            GitHub
+          </a>{" "}
+          · Made by{" "}
+          <a href="https://x.com/iextrastu" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink">
+            @extrastu
+          </a>
+        </p>
+      </footer>
     </main>
   )
 }
