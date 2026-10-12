@@ -1,5 +1,135 @@
 @import "tailwindcss";
 
-button {
-  @apply cursor-pointer;
+/* Design tokens: neo-brutalist, warm paper, ink outlines, hard shadows. */
+:root {
+  color-scheme: light;
+  --paper: #fff4dd;
+  --card: #fffdf7;
+  --ink: #26201a;
+  --ink-2: #5c5347;
+  --ink-3: #877b6b;
+  --accent: #ff5c2b;
+  --accent-hover: #ee4518;
+  --on-accent: #fffdf7;
+  --empty: #f1e3c4;
+  --dot: rgb(38 32 26 / 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: oklch(0.18 0.012 70);
+    --card: oklch(0.24 0.014 70);
+    --ink: oklch(0.93 0.025 80);
+    --ink-2: oklch(0.8 0.02 80);
+    --ink-3: oklch(0.65 0.02 80);
+    --accent: #ff7a4d;
+    --accent-hover: #ff8e66;
+    --on-accent: #1a1510;
+    --empty: oklch(0.3 0.02 70);
+    --dot: rgb(255 244 221 / 0.08);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: oklch(0.18 0.012 70);
+  --card: oklch(0.24 0.014 70);
+  --ink: oklch(0.93 0.025 80);
+  --ink-2: oklch(0.8 0.02 80);
+  --ink-3: oklch(0.65 0.02 80);
+  --accent: #ff7a4d;
+  --accent-hover: #ff8e66;
+  --on-accent: #1a1510;
+  --empty: oklch(0.3 0.02 70);
+  --dot: rgb(255 244 221 / 0.08);
+}
+
+@theme {
+  --color-paper: var(--paper);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
+  --color-empty: var(--empty);
+  --color-sun: #ffd84d;
+  --color-rose: #ffb9cc;
+  --color-sky: #a5dcff;
+  --color-mint: #b9e6a6;
+  --color-peach: #ffb07a;
+  /* Pastel surfaces always take dark text, in both themes. */
+  --color-on-pastel: #26201a;
+
+  --shadow-hard-sm: 2px 2px 0 var(--ink);
+  --shadow-hard: 4px 4px 0 var(--ink);
+  --shadow-hard-lg: 6px 6px 0 var(--ink);
+
+  --font-display: var(--font-baloo), "Arial Rounded MT Bold", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  button,
+  select,
+  label {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .dot-grid {
+    background-image: radial-gradient(var(--dot) 1.5px, transparent 1.5px);
+    background-size: 18px 18px;
+  }
+  /* Press-in buttons: lift on hover, sink on press. */
+  .press {
+    transition: transform 120ms ease, box-shadow 120ms ease, background-color 120ms ease;
+  }
+  .press:hover:not(:disabled) {
+    transform: translate(-1px, -1px);
+    box-shadow: var(--shadow-hard-lg);
+  }
+  .press:active:not(:disabled) {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+  }
+}
+
+/* Export-only styling (applied while capturing the wall for download/copy). */
+@layer components {
+  .export-mask {
+    display: none;
+    position: absolute;
+    inset: 0;
+    background: rgb(0 0 0 / 0.55);
+  }
+}
+.exporting .export-mask {
+  display: block;
+}
+.exporting .anime-badge {
+  display: none !important;
+}
+.exporting .cover-img {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .press,
+  .press:hover,
+  .press:active {
+    transition: none;
+    transform: none;
+  }
 }

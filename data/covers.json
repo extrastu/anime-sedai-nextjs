@@ -1,1 +1,1436 @@
-{}
+{
+  "2006:死亡笔记": {
+    "id": 1773,
+    "cover": "https://lain.bgm.tv/pic/cover/l/4a/be/1773_rldoC.jpg",
+    "url": "https://bgm.tv/subject/1773",
+    "matched": "exact"
+  },
+  "2006:银魂": {
+    "id": 247,
+    "cover": "https://lain.bgm.tv/pic/cover/l/3c/ec/247_MnPPU.jpg",
+    "url": "https://bgm.tv/subject/247",
+    "matched": "exact"
+  },
+  "2006:寒蝉鸣泣之时": {
+    "id": 289,
+    "cover": "https://lain.bgm.tv/pic/cover/l/83/9a/289_h0nz0.jpg",
+    "url": "https://bgm.tv/subject/289",
+    "matched": "exact"
+  },
+  "2006:Code Geass 反叛的鲁路修": {
+    "id": 793,
+    "cover": "https://lain.bgm.tv/pic/cover/l/da/8c/793_3y432.jpg",
+    "url": "https://bgm.tv/subject/793",
+    "matched": "exact"
+  },
+  "2006:欢迎加入NHK！": {
+    "id": 995,
+    "cover": "https://lain.bgm.tv/pic/cover/l/2b/ca/995_m937T.jpg",
+    "url": "https://bgm.tv/subject/995",
+    "matched": "exact"
+  },
+  "2006:Fate/stay night": {
+    "id": 290,
+    "cover": "https://lain.bgm.tv/pic/cover/l/f9/0f/290_6Qi5Q.jpg",
+    "url": "https://bgm.tv/subject/290",
+    "matched": "exact"
+  },
+  "2006:凉宫春日的忧郁": {
+    "id": 485,
+    "cover": "https://lain.bgm.tv/pic/cover/l/21/8a/485_Et062.jpg",
+    "url": "https://bgm.tv/subject/485",
+    "matched": "exact"
+  },
+  "2006:零之使魔": {
+    "id": 1880,
+    "cover": "https://lain.bgm.tv/pic/cover/l/32/14/1880_fsmcg.jpg",
+    "url": "https://bgm.tv/subject/1880",
+    "matched": "exact"
+  },
+  "2006:黑礁": {
+    "id": 979,
+    "cover": "https://lain.bgm.tv/pic/cover/l/c3/2d/979_Pw5W0.jpg",
+    "url": "https://bgm.tv/subject/979",
+    "matched": "exact"
+  },
+  "2006:Kanon": {
+    "id": 274,
+    "cover": "https://lain.bgm.tv/pic/cover/l/d9/47/274_jNWMv.jpg",
+    "url": "https://bgm.tv/subject/274",
+    "matched": "exact"
+  },
+  "2006:娜娜": {
+    "id": 486,
+    "cover": "https://lain.bgm.tv/pic/cover/l/7d/04/486_Pk550.jpg",
+    "url": "https://bgm.tv/subject/486",
+    "matched": "exact"
+  },
+  "2006:×××HOLiC": {
+    "id": 2439,
+    "cover": "https://lain.bgm.tv/pic/cover/l/fc/79/2439_9R0oU.jpg",
+    "url": "https://bgm.tv/subject/2439",
+    "matched": "exact"
+  },
+  "2007:幸运星": {
+    "id": 276,
+    "cover": "https://lain.bgm.tv/pic/cover/l/db/8e/276_1Cr5K.jpg",
+    "url": "https://bgm.tv/subject/276",
+    "matched": "exact"
+  },
+  "2007:CLANNAD": {
+    "id": 51,
+    "cover": "https://lain.bgm.tv/pic/cover/l/28/38/51_6PN42.jpg",
+    "url": "https://bgm.tv/subject/51",
+    "matched": "exact"
+  },
+  "2007:天元突破 红莲螺岩": {
+    "id": 770,
+    "cover": "https://lain.bgm.tv/pic/cover/l/4e/a0/770_EvrMq.jpg",
+    "url": "https://bgm.tv/subject/770",
+    "matched": "exact"
+  },
+  "2007:旋风管家": {
+    "id": 808,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a8/ec/808_wmqKJ.jpg",
+    "url": "https://bgm.tv/subject/808",
+    "matched": "exact"
+  },
+  "2007:火影忍者疾风传": {
+    "id": 2782,
+    "cover": "https://lain.bgm.tv/pic/cover/l/60/24/2782_z3jWE.jpg",
+    "url": "https://bgm.tv/subject/2782",
+    "matched": "exact"
+  },
+  "2007:悠久之翼": {
+    "id": 799,
+    "cover": "https://lain.bgm.tv/pic/cover/l/28/26/799_C3Ypp.jpg",
+    "url": "https://bgm.tv/subject/799",
+    "matched": "exact"
+  },
+  "2007:赌博默示录": {
+    "id": 3892,
+    "cover": "https://lain.bgm.tv/pic/cover/l/fb/06/3892_xe6z2.jpg",
+    "url": "https://bgm.tv/subject/3892",
+    "matched": "exact"
+  },
+  "2007:永生之酒": {
+    "id": 965,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ee/b6/965_2E7l6.jpg",
+    "url": "https://bgm.tv/subject/965",
+    "matched": "exact"
+  },
+  "2007:机动战士高达00": {
+    "id": 286,
+    "cover": "https://lain.bgm.tv/pic/cover/l/16/a5/286_8Kxkz.jpg",
+    "url": "https://bgm.tv/subject/286",
+    "matched": "exact"
+  },
+  "2007:再见绝望先生": {
+    "id": 299,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ef/0d/299_0srrf.jpg",
+    "url": "https://bgm.tv/subject/299",
+    "matched": "exact"
+  },
+  "2007:日在校园": {
+    "id": 827,
+    "cover": "https://lain.bgm.tv/pic/cover/l/fa/3a/827_hh7ot.jpg",
+    "url": "https://bgm.tv/subject/827",
+    "matched": "exact"
+  },
+  "2007:南家三姐妹": {
+    "id": 283,
+    "cover": "https://lain.bgm.tv/pic/cover/l/0f/49/283_qtWfz.jpg",
+    "url": "https://bgm.tv/subject/283",
+    "matched": "exact"
+  },
+  "2008:出包王女": {
+    "id": 849,
+    "cover": "https://lain.bgm.tv/pic/cover/l/fe/8c/849_9xbj1.jpg",
+    "url": "https://bgm.tv/subject/849",
+    "matched": "exact"
+  },
+  "2008:龙与虎": {
+    "id": 909,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a4/30/909_e5zhk.jpg",
+    "url": "https://bgm.tv/subject/909",
+    "matched": "exact"
+  },
+  "2008:魔法禁书目录": {
+    "id": 1014,
+    "cover": "https://lain.bgm.tv/pic/cover/l/76/6d/1014_nqAH8.jpg",
+    "url": "https://bgm.tv/subject/1014",
+    "matched": "exact"
+  },
+  "2008:狼与香辛料": {
+    "id": 282,
+    "cover": "https://lain.bgm.tv/pic/cover/l/6a/9a/282_yTm70.jpg",
+    "url": "https://bgm.tv/subject/282",
+    "matched": "exact"
+  },
+  "2008:夏目友人帐": {
+    "id": 259,
+    "cover": "https://lain.bgm.tv/pic/cover/l/cf/a0/259_7C5D9.jpg",
+    "url": "https://bgm.tv/subject/259",
+    "matched": "exact"
+  },
+  "2008:真实之泪": {
+    "id": 309,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ed/de/309_958Es.jpg",
+    "url": "https://bgm.tv/subject/309",
+    "matched": "exact"
+  },
+  "2008:神薙": {
+    "id": 902,
+    "cover": "https://lain.bgm.tv/pic/cover/l/b6/a1/902_PAkZx.jpg",
+    "url": "https://bgm.tv/subject/902",
+    "matched": "exact"
+  },
+  "2008:我的狐仙女友": {
+    "id": 2810,
+    "cover": "https://lain.bgm.tv/pic/cover/l/66/37/2810_3DsaQ.jpg",
+    "url": "https://bgm.tv/subject/2810",
+    "matched": "exact"
+  },
+  "2008:噬魂师": {
+    "id": 866,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ca/81/866_5X5OW.jpg",
+    "url": "https://bgm.tv/subject/866",
+    "matched": "exact"
+  },
+  "2008:黑执事": {
+    "id": 883,
+    "cover": "https://lain.bgm.tv/pic/cover/l/21/0f/883_9w87Y.jpg",
+    "url": "https://bgm.tv/subject/883",
+    "matched": "exact"
+  },
+  "2008:俗・再见绝望先生": {
+    "id": 300,
+    "cover": "https://lain.bgm.tv/pic/cover/l/94/f6/300_2tyI5.jpg",
+    "url": "https://bgm.tv/subject/300",
+    "matched": "exact"
+  },
+  "2008:鹡鸰女神": {
+    "id": 325,
+    "cover": "https://lain.bgm.tv/pic/cover/l/89/f0/325_26e33.jpg",
+    "url": "https://bgm.tv/subject/325",
+    "matched": "exact"
+  },
+  "2009:轻音少女": {
+    "id": 1424,
+    "cover": "https://lain.bgm.tv/pic/cover/l/48/9d/1424_q8FMQ.jpg",
+    "url": "https://bgm.tv/subject/1424",
+    "matched": "exact"
+  },
+  "2009:钢之炼金术师 FULLMETAL ALCHEMIST": {
+    "id": 1428,
+    "cover": "https://lain.bgm.tv/pic/cover/l/06/63/1428_xwkMI.jpg",
+    "url": "https://bgm.tv/subject/1428",
+    "matched": "exact"
+  },
+  "2009:化物语": {
+    "id": 1671,
+    "cover": "https://lain.bgm.tv/pic/cover/l/64/7c/1671_vQ2W9.jpg",
+    "url": "https://bgm.tv/subject/1671",
+    "matched": "exact"
+  },
+  "2009:凉宫春日的忧郁 2009": {
+    "id": 1606,
+    "cover": "https://lain.bgm.tv/pic/cover/l/49/5d/1606_64k44.jpg",
+    "url": "https://bgm.tv/subject/1606",
+    "matched": "exact"
+  },
+  "2009:某科学的超电磁炮": {
+    "id": 2585,
+    "cover": "https://lain.bgm.tv/pic/cover/l/36/e7/2585_pn2eP.jpg",
+    "url": "https://bgm.tv/subject/2585",
+    "matched": "exact"
+  },
+  "2009:学生会的一己之见": {
+    "id": 2567,
+    "cover": "https://lain.bgm.tv/pic/cover/l/dd/a0/2567_090zo.jpg",
+    "url": "https://bgm.tv/subject/2567",
+    "matched": "exact"
+  },
+  "2009:天降之物": {
+    "id": 2617,
+    "cover": "https://lain.bgm.tv/pic/cover/l/75/e3/2617_TM8mX.jpg",
+    "url": "https://bgm.tv/subject/2617",
+    "matched": "exact"
+  },
+  "2009:天才麻将少女": {
+    "id": 1444,
+    "cover": "https://lain.bgm.tv/pic/cover/l/af/e4/1444_m7Ti7.jpg",
+    "url": "https://bgm.tv/subject/1444",
+    "matched": "exact"
+  },
+  "2009:白色相簿": {
+    "id": 993,
+    "cover": "https://lain.bgm.tv/pic/cover/l/7b/13/993_6PQ58.jpg",
+    "url": "https://bgm.tv/subject/993",
+    "matched": "exact"
+  },
+  "2009:妖精的尾巴": {
+    "id": 2609,
+    "cover": "https://lain.bgm.tv/pic/cover/l/33/9a/2609_3ak4F.jpg",
+    "url": "https://bgm.tv/subject/2609",
+    "matched": "exact"
+  },
+  "2009:好想告诉你": {
+    "id": 2790,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ec/0b/2790_gng9Z.jpg",
+    "url": "https://bgm.tv/subject/2790",
+    "matched": "exact"
+  },
+  "2010:吊带袜天使": {
+    "id": 8402,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a7/49/8402_Q9mLv.jpg",
+    "url": "https://bgm.tv/subject/8402",
+    "matched": "exact"
+  },
+  "2010:四叠半神话大系": {
+    "id": 4019,
+    "cover": "https://lain.bgm.tv/pic/cover/l/7f/c6/4019_f34f4.jpg",
+    "url": "https://bgm.tv/subject/4019",
+    "matched": "exact"
+  },
+  "2010:妄想学生会": {
+    "id": 5649,
+    "cover": "https://lain.bgm.tv/pic/cover/l/33/7c/5649_r9s6i.jpg",
+    "url": "https://bgm.tv/subject/5649",
+    "matched": "exact"
+  },
+  "2010:缘之空": {
+    "id": 7157,
+    "cover": "https://lain.bgm.tv/pic/cover/l/6e/01/7157_hF46A.jpg",
+    "url": "https://bgm.tv/subject/7157",
+    "matched": "exact"
+  },
+  "2010:笨蛋，测验，召唤兽": {
+    "id": 3326,
+    "cover": "https://lain.bgm.tv/pic/cover/l/db/a1/3326_lwy94.jpg",
+    "url": "https://bgm.tv/subject/3326",
+    "matched": "exact"
+  },
+  "2010:天使的心跳！": {
+    "id": 1851,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ff/14/1851_ZFEg7.jpg",
+    "url": "https://bgm.tv/subject/1851",
+    "matched": "exact"
+  },
+  "2010:无头骑士异闻录": {
+    "id": 2463,
+    "cover": "https://lain.bgm.tv/pic/cover/l/18/43/2463_FGJkn.jpg",
+    "url": "https://bgm.tv/subject/2463",
+    "matched": "exact"
+  },
+  "2010:只有神知道的世界": {
+    "id": 5976,
+    "cover": "https://lain.bgm.tv/pic/cover/l/e1/05/5976_irRRH.jpg",
+    "url": "https://bgm.tv/subject/5976",
+    "matched": "exact"
+  },
+  "2010:圣诞之吻SS": {
+    "id": 5656,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ae/5e/5656_WUY5N.jpg",
+    "url": "https://bgm.tv/subject/5656",
+    "matched": "exact"
+  },
+  "2010:我的妹妹哪有这么可爱！": {
+    "id": 5436,
+    "cover": "https://lain.bgm.tv/pic/cover/l/cf/8c/5436_MNxnb.jpg",
+    "url": "https://bgm.tv/subject/5436",
+    "matched": "exact"
+  },
+  "2010:女仆咖啡厅": {
+    "id": 7883,
+    "cover": "https://lain.bgm.tv/pic/cover/l/3f/8e/7883_NLYr5.jpg",
+    "url": "https://bgm.tv/subject/7883",
+    "matched": "exact"
+  },
+  "2010:亲吻姐姐": {
+    "id": 4284,
+    "cover": "https://lain.bgm.tv/pic/cover/l/41/b0/4284_wf3UE.jpg",
+    "url": "https://bgm.tv/subject/4284",
+    "matched": "exact"
+  },
+  "2011:命运石之门": {
+    "id": 10380,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a9/79/10380_YwP4R.jpg",
+    "url": "https://bgm.tv/subject/10380",
+    "matched": "exact"
+  },
+  "2011:日常": {
+    "id": 9912,
+    "cover": "https://lain.bgm.tv/pic/cover/l/0e/14/9912_vHEd6.jpg",
+    "url": "https://bgm.tv/subject/9912",
+    "matched": "exact"
+  },
+  "2011:Fate/Zero": {
+    "id": 10639,
+    "cover": "https://lain.bgm.tv/pic/cover/l/86/1f/10639_w4sHs.jpg",
+    "url": "https://bgm.tv/subject/10639",
+    "matched": "exact"
+  },
+  "2011:魔法少女小圆": {
+    "id": 9717,
+    "cover": "https://lain.bgm.tv/pic/cover/l/cb/57/9717_sAVag.jpg",
+    "url": "https://bgm.tv/subject/9717",
+    "matched": "exact"
+  },
+  "2011:回转企鹅罐": {
+    "id": 18624,
+    "cover": "https://lain.bgm.tv/pic/cover/l/92/f6/18624_ZFj5M.jpg",
+    "url": "https://bgm.tv/subject/18624",
+    "matched": "exact"
+  },
+  "2011:摇曳百合": {
+    "id": 14588,
+    "cover": "https://lain.bgm.tv/pic/cover/l/43/d9/14588_bDB2r.jpg",
+    "url": "https://bgm.tv/subject/14588",
+    "matched": "exact"
+  },
+  "2011:我们仍未知道那天所看见的花的名字。": {
+    "id": 10440,
+    "cover": "https://lain.bgm.tv/pic/cover/l/6c/e8/10440_8HP6O.jpg",
+    "url": "https://bgm.tv/subject/10440",
+    "matched": "exact"
+  },
+  "2011:罪恶王冠": {
+    "id": 18635,
+    "cover": "https://lain.bgm.tv/pic/cover/l/7d/4c/18635_71IIr.jpg",
+    "url": "https://bgm.tv/subject/18635",
+    "matched": "exact"
+  },
+  "2011:花开伊吕波": {
+    "id": 22759,
+    "cover": "https://lain.bgm.tv/pic/cover/l/56/2d/22759_A5N6H.jpg",
+    "url": "https://bgm.tv/subject/22759",
+    "matched": "exact"
+  },
+  "2011:偶像大师": {
+    "id": 11577,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a8/6a/11577_5U5G1.jpg",
+    "url": "https://bgm.tv/subject/11577",
+    "matched": "exact"
+  },
+  "2011:GOSICK": {
+    "id": 9781,
+    "cover": "https://lain.bgm.tv/pic/cover/l/9d/3d/9781_Kkik8.jpg",
+    "url": "https://bgm.tv/subject/9781",
+    "matched": "exact"
+  },
+  "2011:我的朋友很少": {
+    "id": 17883,
+    "cover": "https://lain.bgm.tv/pic/cover/l/80/d1/17883_58mrm.jpg",
+    "url": "https://bgm.tv/subject/17883",
+    "matched": "exact"
+  },
+  "2012:冰菓": {
+    "id": 27364,
+    "cover": "https://lain.bgm.tv/pic/cover/l/cd/38/27364_1ZFmr.jpg",
+    "url": "https://bgm.tv/subject/27364",
+    "matched": "exact"
+  },
+  "2012:JOJO的奇妙冒险": {
+    "id": 43558,
+    "cover": "https://lain.bgm.tv/pic/cover/l/23/5d/43558_ECoSc.jpg",
+    "url": "https://bgm.tv/subject/43558",
+    "matched": "exact"
+  },
+  "2012:男子高中生的日常": {
+    "id": 24790,
+    "cover": "https://lain.bgm.tv/pic/cover/l/c5/73/24790_4wdXB.jpg",
+    "url": "https://bgm.tv/subject/24790",
+    "matched": "exact"
+  },
+  "2012:中二病也要谈恋爱！": {
+    "id": 29648,
+    "cover": "https://lain.bgm.tv/pic/cover/l/3d/fd/29648_LOcOx.jpg",
+    "url": "https://bgm.tv/subject/29648",
+    "matched": "exact"
+  },
+  "2012:来自新世界": {
+    "id": 37785,
+    "cover": "https://lain.bgm.tv/pic/cover/l/9a/64/37785_aBBEd.jpg",
+    "url": "https://bgm.tv/subject/37785",
+    "matched": "exact"
+  },
+  "2012:伪物语": {
+    "id": 23161,
+    "cover": "https://lain.bgm.tv/pic/cover/l/8e/28/23161_y2AEb.jpg",
+    "url": "https://bgm.tv/subject/23161",
+    "matched": "exact"
+  },
+  "2012:Another": {
+    "id": 20851,
+    "cover": "https://lain.bgm.tv/pic/cover/l/d3/39/20851_V4eXe.jpg",
+    "url": "https://bgm.tv/subject/20851",
+    "matched": "exact"
+  },
+  "2012:樱花庄的宠物女孩": {
+    "id": 41488,
+    "cover": "https://lain.bgm.tv/pic/cover/l/01/a2/41488_qw09G.jpg",
+    "url": "https://bgm.tv/subject/41488",
+    "matched": "exact"
+  },
+  "2012:心理测量者": {
+    "id": 37685,
+    "cover": "https://lain.bgm.tv/pic/cover/l/bb/0a/37685_JLl2k.jpg",
+    "url": "https://bgm.tv/subject/37685",
+    "matched": "exact"
+  },
+  "2012:恶魔高校 D×D": {
+    "id": 15910,
+    "cover": "https://lain.bgm.tv/pic/cover/l/03/9b/15910_5XjQ5.jpg",
+    "url": "https://bgm.tv/subject/15910",
+    "matched": "exact"
+  },
+  "2012:刀剑神域": {
+    "id": 23686,
+    "cover": "https://lain.bgm.tv/pic/cover/l/2e/c8/23686_e36x9.jpg",
+    "url": "https://bgm.tv/subject/23686",
+    "matched": "exact"
+  },
+  "2012:人类衰退之后": {
+    "id": 26449,
+    "cover": "https://lain.bgm.tv/pic/cover/l/41/39/26449_G0Xzx.jpg",
+    "url": "https://bgm.tv/subject/26449",
+    "matched": "exact"
+  },
+  "2013:进击的巨人": {
+    "id": 55770,
+    "cover": "https://lain.bgm.tv/pic/cover/l/78/c9/55770_HsJfh.jpg",
+    "url": "https://bgm.tv/subject/55770",
+    "matched": "exact"
+  },
+  "2013:斩服少女": {
+    "id": 72941,
+    "cover": "https://lain.bgm.tv/pic/cover/l/d5/d7/72941_q1DiW.jpg",
+    "url": "https://bgm.tv/subject/72941",
+    "matched": "exact"
+  },
+  "2013:我的青春恋爱物语果然有问题": {
+    "id": 54433,
+    "cover": "https://lain.bgm.tv/pic/cover/l/1e/f1/54433_JZ99l.jpg",
+    "url": "https://bgm.tv/subject/54433",
+    "matched": "exact"
+  },
+  "2013:悠哉日常大王": {
+    "id": 78405,
+    "cover": "https://lain.bgm.tv/pic/cover/l/47/fa/78405_dodKZ.jpg",
+    "url": "https://bgm.tv/subject/78405",
+    "matched": "exact"
+  },
+  "2013:玉子市场": {
+    "id": 55113,
+    "cover": "https://lain.bgm.tv/pic/cover/l/f8/7f/55113_TR5Is.jpg",
+    "url": "https://bgm.tv/subject/55113",
+    "matched": "exact"
+  },
+  "2013:向山进发": {
+    "id": 41658,
+    "cover": "https://lain.bgm.tv/pic/cover/l/f3/b2/41658_Gsis2.jpg",
+    "url": "https://bgm.tv/subject/41658",
+    "matched": "exact"
+  },
+  "2013:约会大作战": {
+    "id": 49131,
+    "cover": "https://lain.bgm.tv/pic/cover/l/99/08/49131_CIPjC.jpg",
+    "url": "https://bgm.tv/subject/49131",
+    "matched": "exact"
+  },
+  "2013:噬血狂袭": {
+    "id": 67826,
+    "cover": "https://lain.bgm.tv/pic/cover/l/c0/f7/67826_oa7Xa.jpg",
+    "url": "https://bgm.tv/subject/67826",
+    "matched": "exact"
+  },
+  "2013:来自风平浪静的明天": {
+    "id": 47889,
+    "cover": "https://lain.bgm.tv/pic/cover/l/16/29/47889_gZy58.jpg",
+    "url": "https://bgm.tv/subject/47889",
+    "matched": "exact"
+  },
+  "2013:我的妹妹哪有这么可爱。2": {
+    "id": 37898,
+    "cover": "https://lain.bgm.tv/pic/cover/l/50/53/37898_GB3nG.jpg",
+    "url": "https://bgm.tv/subject/37898",
+    "matched": "exact"
+  },
+  "2013:我不受欢迎，怎么想都是你们的错！": {
+    "id": 69214,
+    "cover": "https://lain.bgm.tv/pic/cover/l/05/6c/69214_qB7Wi.jpg",
+    "url": "https://bgm.tv/subject/69214",
+    "matched": "exact"
+  },
+  "2013:境界的彼方": {
+    "id": 49278,
+    "cover": "https://lain.bgm.tv/pic/cover/l/0e/32/49278_mo7EP.jpg",
+    "url": "https://bgm.tv/subject/49278",
+    "matched": "exact"
+  },
+  "2014:白箱": {
+    "id": 110467,
+    "cover": "https://lain.bgm.tv/pic/cover/l/73/26/110467_Fx9tT.jpg",
+    "url": "https://bgm.tv/subject/110467",
+    "matched": "exact"
+  },
+  "2014:四月是你的谎言": {
+    "id": 100444,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ec/c7/100444_96r3J.jpg",
+    "url": "https://bgm.tv/subject/100444",
+    "matched": "exact"
+  },
+  "2014:Fate/stay night [Unlimited Blade Works]": {
+    "id": 95225,
+    "cover": "https://lain.bgm.tv/pic/cover/l/e1/5a/95225_nuqNt.jpg",
+    "url": "https://bgm.tv/subject/95225",
+    "matched": "exact"
+  },
+  "2014:游戏人生": {
+    "id": 79227,
+    "cover": "https://lain.bgm.tv/pic/cover/l/54/bd/79227_052R3.jpg",
+    "url": "https://bgm.tv/subject/79227",
+    "matched": "exact"
+  },
+  "2014:乒乓": {
+    "id": 93739,
+    "cover": "https://lain.bgm.tv/pic/cover/l/1e/63/93739_TZ9dS.jpg",
+    "url": "https://bgm.tv/subject/93739",
+    "matched": "exact"
+  },
+  "2014:甘城光辉游乐园": {
+    "id": 93545,
+    "cover": "https://lain.bgm.tv/pic/cover/l/69/e5/93545_zYRKK.jpg",
+    "url": "https://bgm.tv/subject/93545",
+    "matched": "exact"
+  },
+  "2014:寄生兽 生命的准则": {
+    "id": 88433,
+    "cover": "https://lain.bgm.tv/pic/cover/l/e3/14/88433_5Jl4M.jpg",
+    "url": "https://bgm.tv/subject/88433",
+    "matched": "exact"
+  },
+  "2014:伪恋": {
+    "id": 74628,
+    "cover": "https://lain.bgm.tv/pic/cover/l/98/71/74628_8HHlL.jpg",
+    "url": "https://bgm.tv/subject/74628",
+    "matched": "exact"
+  },
+  "2014:月刊少女野崎君": {
+    "id": 100449,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a0/20/100449_d101j.jpg",
+    "url": "https://bgm.tv/subject/100449",
+    "matched": "exact"
+  },
+  "2014:请问您今天要来点兔子吗？": {
+    "id": 88287,
+    "cover": "https://lain.bgm.tv/pic/cover/l/9f/2f/88287_h4xKo.jpg",
+    "url": "https://bgm.tv/subject/88287",
+    "matched": "exact"
+  },
+  "2014:斩·赤红之瞳！": {
+    "id": 94244,
+    "cover": "https://lain.bgm.tv/pic/cover/l/5e/e3/94244_aCTut.jpg",
+    "url": "https://bgm.tv/subject/94244",
+    "matched": "exact"
+  },
+  "2014:太空丹迪": {
+    "id": 80864,
+    "cover": "https://lain.bgm.tv/pic/cover/l/61/62/80864_refoz.jpg",
+    "url": "https://bgm.tv/subject/80864",
+    "matched": "exact"
+  },
+  "2015:路人女主的养成方法": {
+    "id": 100403,
+    "cover": "https://lain.bgm.tv/pic/cover/l/6b/01/100403_R8KN2.jpg",
+    "url": "https://bgm.tv/subject/100403",
+    "matched": "exact"
+  },
+  "2015:暗杀教室": {
+    "id": 106818,
+    "cover": "https://lain.bgm.tv/pic/cover/l/f4/91/106818_YJ4JT.jpg",
+    "url": "https://bgm.tv/subject/106818",
+    "matched": "exact"
+  },
+  "2015:一拳超人": {
+    "id": 127563,
+    "cover": "https://lain.bgm.tv/pic/cover/l/8c/a2/127563_nl66u.jpg",
+    "url": "https://bgm.tv/subject/127563",
+    "matched": "exact"
+  },
+  "2015:新妹魔王的契约者": {
+    "id": 100205,
+    "cover": "https://lain.bgm.tv/pic/cover/l/84/98/100205_vVRzI.jpg",
+    "url": "https://bgm.tv/subject/100205",
+    "matched": "exact"
+  },
+  "2015:夏洛特": {
+    "id": 120925,
+    "cover": "https://lain.bgm.tv/pic/cover/l/9b/d6/120925_Zp040.jpg",
+    "url": "https://bgm.tv/subject/120925",
+    "matched": "exact"
+  },
+  "2015:OVERLORD": {
+    "id": 112146,
+    "cover": "https://lain.bgm.tv/pic/cover/l/cd/a9/112146_qr9m3.jpg",
+    "url": "https://bgm.tv/subject/112146",
+    "matched": "exact"
+  },
+  "2015:监狱学园": {
+    "id": 110048,
+    "cover": "https://lain.bgm.tv/pic/cover/l/1c/0b/110048_JHz0j.jpg",
+    "url": "https://bgm.tv/subject/110048",
+    "matched": "exact"
+  },
+  "2015:可塑性记忆": {
+    "id": 114685,
+    "cover": "https://lain.bgm.tv/pic/cover/l/1d/08/114685_Ege3l.jpg",
+    "url": "https://bgm.tv/subject/114685",
+    "matched": "exact"
+  },
+  "2015:在地下城寻求邂逅是否搞错了什么": {
+    "id": 116287,
+    "cover": "https://lain.bgm.tv/pic/cover/l/3e/74/116287_EqO1e.jpg",
+    "url": "https://bgm.tv/subject/116287",
+    "matched": "exact"
+  },
+  "2015:干物妹！小埋": {
+    "id": 120187,
+    "cover": "https://lain.bgm.tv/pic/cover/l/41/2c/120187_nXjYb.jpg",
+    "url": "https://bgm.tv/subject/120187",
+    "matched": "exact"
+  },
+  "2015:吹响！悠风号": {
+    "id": 115908,
+    "cover": "https://lain.bgm.tv/pic/cover/l/37/df/115908_c0uQj.jpg",
+    "url": "https://bgm.tv/subject/115908",
+    "matched": "exact"
+  },
+  "2015:终物语": {
+    "id": 138829,
+    "cover": "https://lain.bgm.tv/pic/cover/l/b0/4d/138829_QtBqr.jpg",
+    "url": "https://bgm.tv/subject/138829",
+    "matched": "exact"
+  },
+  "2016:为美好的世界献上祝福！": {
+    "id": 135275,
+    "cover": "https://lain.bgm.tv/pic/cover/l/56/de/135275_G3liq.jpg",
+    "url": "https://bgm.tv/subject/135275",
+    "matched": "exact"
+  },
+  "2016:3月的狮子": {
+    "id": 147068,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a7/86/147068_60GJJ.jpg",
+    "url": "https://bgm.tv/subject/147068",
+    "matched": "exact"
+  },
+  "2016:ReLIFE": {
+    "id": 126173,
+    "cover": "https://lain.bgm.tv/pic/cover/l/e0/a2/126173_II0Y1.jpg",
+    "url": "https://bgm.tv/subject/126173",
+    "matched": "exact"
+  },
+  "2016:齐木楠雄的灾难": {
+    "id": 181354,
+    "cover": "https://lain.bgm.tv/pic/cover/l/b3/28/181354_smUU3.jpg",
+    "url": "https://bgm.tv/subject/181354",
+    "matched": "exact"
+  },
+  "2016:Re：从零开始的异世界生活": {
+    "id": 140001,
+    "cover": "https://lain.bgm.tv/pic/cover/l/cb/78/140001_Ew1mo.jpg",
+    "url": "https://bgm.tv/subject/140001",
+    "matched": "exact"
+  },
+  "2016:只有我不存在的城市": {
+    "id": 137722,
+    "cover": "https://lain.bgm.tv/pic/cover/l/39/2f/137722_Iid43.jpg",
+    "url": "https://bgm.tv/subject/137722",
+    "matched": "exact"
+  },
+  "2016:灵能百分百": {
+    "id": 158316,
+    "cover": "https://lain.bgm.tv/pic/cover/l/2b/85/158316_gz1mM.jpg",
+    "url": "https://bgm.tv/subject/158316",
+    "matched": "exact"
+  },
+  "2016:灰与幻想的格林姆迦尔": {
+    "id": 148726,
+    "cover": "https://lain.bgm.tv/pic/cover/l/0c/20/148726_nj2ww.jpg",
+    "url": "https://bgm.tv/subject/148726",
+    "matched": "exact"
+  },
+  "2016:这个美术社大有问题！": {
+    "id": 150746,
+    "cover": "https://lain.bgm.tv/pic/cover/l/b6/fb/150746_AAL5A.jpg",
+    "url": "https://bgm.tv/subject/150746",
+    "matched": "exact"
+  },
+  "2016:轻拍翻转小魔女": {
+    "id": 174584,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a4/cb/174584_7tQO4.jpg",
+    "url": "https://bgm.tv/subject/174584",
+    "matched": "exact"
+  },
+  "2016:飞翔的魔女": {
+    "id": 141799,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a5/25/141799_81ZfO.jpg",
+    "url": "https://bgm.tv/subject/141799",
+    "matched": "exact"
+  },
+  "2016:NEW GAME!": {
+    "id": 150775,
+    "cover": "https://lain.bgm.tv/pic/cover/l/0f/79/150775_rRSAT.jpg",
+    "url": "https://bgm.tv/subject/150775",
+    "matched": "exact"
+  },
+  "2017:少女终末旅行": {
+    "id": 218707,
+    "cover": "https://lain.bgm.tv/pic/cover/l/c5/8b/218707_DBmO2.jpg",
+    "url": "https://bgm.tv/subject/218707",
+    "matched": "exact"
+  },
+  "2017:来自深渊": {
+    "id": 203526,
+    "cover": "https://lain.bgm.tv/pic/cover/l/f7/bf/203526_q2P6P.jpg",
+    "url": "https://bgm.tv/subject/203526",
+    "matched": "exact"
+  },
+  "2017:小林家的龙女仆": {
+    "id": 179949,
+    "cover": "https://lain.bgm.tv/pic/cover/l/e9/15/179949_c2j50.jpg",
+    "url": "https://bgm.tv/subject/179949",
+    "matched": "exact"
+  },
+  "2017:狂赌之渊": {
+    "id": 209408,
+    "cover": "https://lain.bgm.tv/pic/cover/l/41/1f/209408_IMIAi.jpg",
+    "url": "https://bgm.tv/subject/209408",
+    "matched": "exact"
+  },
+  "2017:末日时在做什么？有没有空？可以来拯救吗？": {
+    "id": 185943,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a0/5f/185943_VDh22.jpg",
+    "url": "https://bgm.tv/subject/185943",
+    "matched": "exact"
+  },
+  "2017:月色真美": {
+    "id": 207573,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a8/41/207573_95N29.jpg",
+    "url": "https://bgm.tv/subject/207573",
+    "matched": "exact"
+  },
+  "2017:重启咲良田": {
+    "id": 193378,
+    "cover": "https://lain.bgm.tv/pic/cover/l/b1/c7/193378_KgztF.jpg",
+    "url": "https://bgm.tv/subject/193378",
+    "matched": "exact"
+  },
+  "2017:BanG Dream!": {
+    "id": 186515,
+    "cover": "https://lain.bgm.tv/pic/cover/l/70/a5/186515_ZJhwb.jpg",
+    "url": "https://bgm.tv/subject/186515",
+    "matched": "exact"
+  },
+  "2017:幼女战记": {
+    "id": 167655,
+    "cover": "https://lain.bgm.tv/pic/cover/l/dd/e3/167655_O0npY.jpg",
+    "url": "https://bgm.tv/subject/167655",
+    "matched": "exact"
+  },
+  "2017:小魔女学园": {
+    "id": 185792,
+    "cover": "https://lain.bgm.tv/pic/cover/l/c5/09/185792_YmcaM.jpg",
+    "url": "https://bgm.tv/subject/185792",
+    "matched": "exact"
+  },
+  "2017:Just Because!": {
+    "id": 212278,
+    "cover": "https://lain.bgm.tv/pic/cover/l/cf/9d/212278_zwYLL.jpg",
+    "url": "https://bgm.tv/subject/212278",
+    "matched": "exact"
+  },
+  "2017:埃罗芒阿老师": {
+    "id": 172498,
+    "cover": "https://lain.bgm.tv/pic/cover/l/87/bf/172498_wfm40.jpg",
+    "url": "https://bgm.tv/subject/172498",
+    "matched": "exact"
+  },
+  "2018:摇曳露营△": {
+    "id": 207195,
+    "cover": "https://lain.bgm.tv/pic/cover/l/18/bc/207195_2Cp3o.jpg",
+    "url": "https://bgm.tv/subject/207195",
+    "matched": "exact"
+  },
+  "2018:碧蓝之海": {
+    "id": 235130,
+    "cover": "https://lain.bgm.tv/pic/cover/l/1f/13/235130_suy3s.jpg",
+    "url": "https://bgm.tv/subject/235130",
+    "matched": "exact"
+  },
+  "2018:赛马娘 Pretty Derby": {
+    "id": 212003,
+    "cover": "https://lain.bgm.tv/pic/cover/l/91/c0/212003_pPk1M.jpg",
+    "url": "https://bgm.tv/subject/212003",
+    "matched": "exact"
+  },
+  "2018:紫罗兰永恒花园": {
+    "id": 183878,
+    "cover": "https://lain.bgm.tv/pic/cover/l/1e/e2/183878_Fef1o.jpg",
+    "url": "https://bgm.tv/subject/183878",
+    "matched": "exact"
+  },
+  "2018:强风吹拂": {
+    "id": 248154,
+    "cover": "https://lain.bgm.tv/pic/cover/l/d0/e0/248154_D8z6D.jpg",
+    "url": "https://bgm.tv/subject/248154",
+    "matched": "exact"
+  },
+  "2018:少女☆歌剧 Revue Starlight": {
+    "id": 214265,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ca/48/214265_uHAIG.jpg",
+    "url": "https://bgm.tv/subject/214265",
+    "matched": "exact"
+  },
+  "2018:擅长捉弄的高木同学": {
+    "id": 219200,
+    "cover": "https://lain.bgm.tv/pic/cover/l/09/16/219200_wFT9i.jpg",
+    "url": "https://bgm.tv/subject/219200",
+    "matched": "exact"
+  },
+  "2018:佐贺偶像是传奇": {
+    "id": 252655,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a4/ef/252655_8X396.jpg",
+    "url": "https://bgm.tv/subject/252655",
+    "matched": "exact"
+  },
+  "2018:比宇宙更远的地方": {
+    "id": 218708,
+    "cover": "https://lain.bgm.tv/pic/cover/l/16/de/218708_99YjL.jpg",
+    "url": "https://bgm.tv/subject/218708",
+    "matched": "exact"
+  },
+  "2018:青春笨蛋少年不做兔女郎学姐的梦": {
+    "id": 240038,
+    "cover": "https://lain.bgm.tv/pic/cover/l/b9/45/240038_b5j7g.jpg",
+    "url": "https://bgm.tv/subject/240038",
+    "matched": "exact"
+  },
+  "2018:哥布林杀手": {
+    "id": 238006,
+    "cover": "https://lain.bgm.tv/pic/cover/l/c7/2a/238006_OJZy1.jpg",
+    "url": "https://bgm.tv/subject/238006",
+    "matched": "exact"
+  },
+  "2018:终将成为你": {
+    "id": 243981,
+    "cover": "https://lain.bgm.tv/pic/cover/l/bc/72/243981_J20I2.jpg",
+    "url": "https://bgm.tv/subject/243981",
+    "matched": "exact"
+  },
+  "2019:冰海战记": {
+    "id": 240386,
+    "cover": "https://lain.bgm.tv/pic/cover/l/31/8f/240386_6Q62q.jpg",
+    "url": "https://bgm.tv/subject/240386",
+    "matched": "exact"
+  },
+  "2019:辉夜大小姐想让我告白～天才们的恋爱头脑战～": {
+    "id": 248175,
+    "cover": "https://lain.bgm.tv/pic/cover/l/2a/f7/248175_2w4zT.jpg",
+    "url": "https://bgm.tv/subject/248175",
+    "matched": "exact"
+  },
+  "2019:街角魔族": {
+    "id": 272510,
+    "cover": "https://lain.bgm.tv/pic/cover/l/af/22/272510_BZ00p.jpg",
+    "url": "https://bgm.tv/subject/272510",
+    "matched": "exact"
+  },
+  "2019:鬼灭之刃": {
+    "id": 245665,
+    "cover": "https://lain.bgm.tv/pic/cover/l/9d/d1/245665_5an54.jpg",
+    "url": "https://bgm.tv/subject/245665",
+    "matched": "exact"
+  },
+  "2019:炎炎消防队": {
+    "id": 266372,
+    "cover": "https://lain.bgm.tv/pic/cover/l/e5/f5/266372_2E8SA.jpg",
+    "url": "https://bgm.tv/subject/266372",
+    "matched": "exact"
+  },
+  "2019:女高中生的无所事事": {
+    "id": 265708,
+    "cover": "https://lain.bgm.tv/pic/cover/l/f3/d0/265708_QDkDe.jpg",
+    "url": "https://bgm.tv/subject/265708",
+    "matched": "exact"
+  },
+  "2019:慎重勇者 ～这个勇者明明超强却过分慎重～": {
+    "id": 266157,
+    "cover": "https://lain.bgm.tv/pic/cover/l/02/3c/266157_1FVwV.jpg",
+    "url": "https://bgm.tv/subject/266157",
+    "matched": "exact"
+  },
+  "2019:天使降临到了我身边！": {
+    "id": 249637,
+    "cover": "https://lain.bgm.tv/pic/cover/l/f3/2d/249637_2r3gw.jpg",
+    "url": "https://bgm.tv/subject/249637",
+    "matched": "exact"
+  },
+  "2019:不吉波普不笑": {
+    "id": 240039,
+    "cover": "https://lain.bgm.tv/pic/cover/l/41/2a/240039_DSzs2.jpg",
+    "url": "https://bgm.tv/subject/240039",
+    "matched": "exact"
+  },
+  "2019:笨拙之极的上野": {
+    "id": 247417,
+    "cover": "https://lain.bgm.tv/pic/cover/l/1f/3f/247417_O2YP9.jpg",
+    "url": "https://bgm.tv/subject/247417",
+    "matched": "exact"
+  },
+  "2019:五等分的新娘": {
+    "id": 256114,
+    "cover": "https://lain.bgm.tv/pic/cover/l/fd/cd/256114_mvRVq.jpg",
+    "url": "https://bgm.tv/subject/256114",
+    "matched": "exact"
+  },
+  "2019:约定的梦幻岛": {
+    "id": 243916,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ff/49/243916_XXJsd.jpg",
+    "url": "https://bgm.tv/subject/243916",
+    "matched": "exact"
+  },
+  "2020:异种族风俗娘评鉴指南": {
+    "id": 285482,
+    "cover": "https://lain.bgm.tv/pic/cover/l/dc/8a/285482_c5RRj.jpg",
+    "url": "https://bgm.tv/subject/285482",
+    "matched": "exact"
+  },
+  "2020:魔女之旅": {
+    "id": 292970,
+    "cover": "https://lain.bgm.tv/pic/cover/l/99/17/292970_mxMxx.jpg",
+    "url": "https://bgm.tv/subject/292970",
+    "matched": "exact"
+  },
+  "2020:安达与岛村": {
+    "id": 282372,
+    "cover": "https://lain.bgm.tv/pic/cover/l/0f/a4/282372_pqp0S.jpg",
+    "url": "https://bgm.tv/subject/282372",
+    "matched": "exact"
+  },
+  "2020:异度侵入": {
+    "id": 285776,
+    "cover": "https://lain.bgm.tv/pic/cover/l/73/90/285776_57c5p.jpg",
+    "url": "https://bgm.tv/subject/285776",
+    "matched": "exact"
+  },
+  "2020:别对映像研出手！": {
+    "id": 282433,
+    "cover": "https://lain.bgm.tv/pic/cover/l/5f/18/282433_9wDx9.jpg",
+    "url": "https://bgm.tv/subject/282433",
+    "matched": "exact"
+  },
+  "2020:咒术回战": {
+    "id": 294993,
+    "cover": "https://lain.bgm.tv/pic/cover/l/60/fe/294993_JrrzK.jpg",
+    "url": "https://bgm.tv/subject/294993",
+    "matched": "exact"
+  },
+  "2020:总之就是非常可爱": {
+    "id": 301541,
+    "cover": "https://lain.bgm.tv/pic/cover/l/66/50/301541_p2z4K.jpg",
+    "url": "https://bgm.tv/subject/301541",
+    "matched": "exact"
+  },
+  "2020:隐瞒之事": {
+    "id": 294713,
+    "cover": "https://lain.bgm.tv/pic/cover/l/8b/91/294713_MwaxY.jpg",
+    "url": "https://bgm.tv/subject/294713",
+    "matched": "exact"
+  },
+  "2020:虚构推理": {
+    "id": 271687,
+    "cover": "https://lain.bgm.tv/pic/cover/l/6c/3b/271687_1326P.jpg",
+    "url": "https://bgm.tv/subject/271687",
+    "matched": "exact"
+  },
+  "2020:恋爱小行星": {
+    "id": 276150,
+    "cover": "https://lain.bgm.tv/pic/cover/l/eb/9f/276150_tJJGx.jpg",
+    "url": "https://bgm.tv/subject/276150",
+    "matched": "exact"
+  },
+  "2020:你与我最后的战场，亦或是世界起始的圣战": {
+    "id": 292273,
+    "cover": "https://lain.bgm.tv/pic/cover/l/20/f7/292273_Nxf0x.jpg",
+    "url": "https://bgm.tv/subject/292273",
+    "matched": "exact"
+  },
+  "2020:邪神与厨二病少女' ": {
+    "id": 272188,
+    "cover": "https://lain.bgm.tv/pic/cover/l/cb/30/272188_DPj3G.jpg",
+    "url": "https://bgm.tv/subject/272188",
+    "matched": "exact"
+  },
+  "2021:86 -不存在的战区-": {
+    "id": 302189,
+    "cover": "https://lain.bgm.tv/pic/cover/l/a4/b3/302189_1034v.jpg",
+    "url": "https://bgm.tv/subject/302189",
+    "matched": "exact"
+  },
+  "2021:无职转生～": {
+    "id": 277554,
+    "cover": "https://lain.bgm.tv/pic/cover/l/8b/00/277554_z999u.jpg",
+    "url": "https://bgm.tv/subject/277554",
+    "matched": "exact"
+  },
+  "2021:回复术士的重来人生": {
+    "id": 295017,
+    "cover": "https://lain.bgm.tv/pic/cover/l/c7/3f/295017_90As6.jpg",
+    "url": "https://bgm.tv/subject/295017",
+    "matched": "exact"
+  },
+  "2021:奇巧计程车": {
+    "id": 325285,
+    "cover": "https://lain.bgm.tv/pic/cover/l/65/90/325285_4688X.jpg",
+    "url": "https://bgm.tv/subject/325285",
+    "matched": "exact"
+  },
+  "2021:打了300年的史莱姆，不知不觉就练到了满级": {
+    "id": 292969,
+    "cover": "https://lain.bgm.tv/pic/cover/l/01/e4/292969_RLbg9.jpg",
+    "url": "https://bgm.tv/subject/292969",
+    "matched": "exact"
+  },
+  "2021:漂流少年": {
+    "id": 332649,
+    "cover": "https://lain.bgm.tv/pic/cover/l/30/fb/332649_32TAQ.jpg",
+    "url": "https://bgm.tv/subject/332649",
+    "matched": "exact"
+  },
+  "2021:堀与宫村": {
+    "id": 315069,
+    "cover": "https://lain.bgm.tv/pic/cover/l/23/a2/315069_2zYW6.jpg",
+    "url": "https://bgm.tv/subject/315069",
+    "matched": "exact"
+  },
+  "2021:派遣战斗员！": {
+    "id": 302190,
+    "cover": "https://lain.bgm.tv/pic/cover/l/99/dc/302190_1NJ2Z.jpg",
+    "url": "https://bgm.tv/subject/302190",
+    "matched": "exact"
+  },
+  "2021:古见同学有交流障碍症": {
+    "id": 335225,
+    "cover": "https://lain.bgm.tv/pic/cover/l/e4/44/335225_UmKwl.jpg",
+    "url": "https://bgm.tv/subject/335225",
+    "matched": "exact"
+  },
+  "2021:奇蛋物语": {
+    "id": 316607,
+    "cover": "https://lain.bgm.tv/pic/cover/l/dd/60/316607_2mvjv.jpg",
+    "url": "https://bgm.tv/subject/316607",
+    "matched": "exact"
+  },
+  "2021:我们的重制人生": {
+    "id": 296870,
+    "cover": "https://lain.bgm.tv/pic/cover/l/1d/ea/296870_gtFm2.jpg",
+    "url": "https://bgm.tv/subject/296870",
+    "matched": "exact"
+  },
+  "2021:看得见的女孩": {
+    "id": 330973,
+    "cover": "https://lain.bgm.tv/pic/cover/l/bc/6b/330973_HpbMw.jpg",
+    "url": "https://bgm.tv/subject/330973",
+    "matched": "exact"
+  },
+  "2022:孤独摇滚！": {
+    "id": 328609,
+    "cover": "https://lain.bgm.tv/pic/cover/l/e2/e7/328609_2EHLJ.jpg",
+    "url": "https://bgm.tv/subject/328609",
+    "matched": "exact"
+  },
+  "2022:莉可丽丝": {
+    "id": 364450,
+    "cover": "https://lain.bgm.tv/pic/cover/l/65/19/364450_xx2zx.jpg",
+    "url": "https://bgm.tv/subject/364450",
+    "matched": "exact"
+  },
+  "2022:想要成为影之实力者！": {
+    "id": 329114,
+    "cover": "https://lain.bgm.tv/pic/cover/l/39/96/329114_mB55b.jpg",
+    "url": "https://bgm.tv/subject/329114",
+    "matched": "exact"
+  },
+  "2022:夏日重现": {
+    "id": 326895,
+    "cover": "https://lain.bgm.tv/pic/cover/l/d9/f5/326895_j1S2n.jpg",
+    "url": "https://bgm.tv/subject/326895",
+    "matched": "exact"
+  },
+  "2022:异世界舅舅": {
+    "id": 339326,
+    "cover": "https://lain.bgm.tv/pic/cover/l/1a/75/339326_v466V.jpg",
+    "url": "https://bgm.tv/subject/339326",
+    "matched": "exact"
+  },
+  "2022:更衣人偶坠入爱河": {
+    "id": 333158,
+    "cover": "https://lain.bgm.tv/pic/cover/l/9c/4d/333158_PA0F4.jpg",
+    "url": "https://bgm.tv/subject/333158",
+    "matched": "exact"
+  },
+  "2022:彻夜之歌": {
+    "id": 356774,
+    "cover": "https://lain.bgm.tv/pic/cover/l/dd/cd/356774_zOW55.jpg",
+    "url": "https://bgm.tv/subject/356774",
+    "matched": "exact"
+  },
+  "2022:测不准的阿波连同学": {
+    "id": 343656,
+    "cover": "https://lain.bgm.tv/pic/cover/l/bd/15/343656_j6eWd.jpg",
+    "url": "https://bgm.tv/subject/343656",
+    "matched": "exact"
+  },
+  "2022:间谍过家家": {
+    "id": 329906,
+    "cover": "https://lain.bgm.tv/pic/cover/l/de/4a/329906_hmtVD.jpg",
+    "url": "https://bgm.tv/subject/329906",
+    "matched": "exact"
+  },
+  "2022:不道德公会": {
+    "id": 373712,
+    "cover": "https://lain.bgm.tv/pic/cover/l/c3/52/373712_WAhb0.jpg",
+    "url": "https://bgm.tv/subject/373712",
+    "matched": "exact"
+  },
+  "2022:链锯人": {
+    "id": 321885,
+    "cover": "https://lain.bgm.tv/pic/cover/l/26/b4/321885_92uzU.jpg",
+    "url": "https://bgm.tv/subject/321885",
+    "matched": "exact"
+  },
+  "2022:明日同学的水手服": {
+    "id": 331480,
+    "cover": "https://lain.bgm.tv/pic/cover/l/07/95/331480_c2aq9.jpg",
+    "url": "https://bgm.tv/subject/331480",
+    "matched": "exact"
+  },
+  "2023:葬送的芙莉莲": {
+    "id": 400602,
+    "cover": "https://lain.bgm.tv/pic/cover/l/13/c5/400602_ZI8Y9.jpg",
+    "url": "https://bgm.tv/subject/400602",
+    "matched": "exact"
+  },
+  "2023:药屋少女的呢喃": {
+    "id": 420628,
+    "cover": "https://lain.bgm.tv/pic/cover/l/fe/31/420628_2ZEz0.jpg",
+    "url": "https://bgm.tv/subject/420628",
+    "matched": "exact"
+  },
+  "2023:BanG Dream! It's MyGO!!!!!": {
+    "id": 428735,
+    "cover": "https://lain.bgm.tv/pic/cover/l/e7/a7/428735_1v11n.jpg",
+    "url": "https://bgm.tv/subject/428735",
+    "matched": "exact"
+  },
+  "2023:我心里危险的东西": {
+    "id": 394260,
+    "cover": "https://lain.bgm.tv/pic/cover/l/01/ee/394260_VMqvV.jpg",
+    "url": "https://bgm.tv/subject/394260",
+    "matched": "exact"
+  },
+  "2023:超超超超超喜欢你的100个女朋友": {
+    "id": 424379,
+    "cover": "https://lain.bgm.tv/pic/cover/l/37/03/424379_UfMuk.jpg",
+    "url": "https://bgm.tv/subject/424379",
+    "matched": "exact"
+  },
+  "2023:别当欧尼酱了！": {
+    "id": 378862,
+    "cover": "https://lain.bgm.tv/pic/cover/l/7e/ca/378862_24TnR.jpg",
+    "url": "https://bgm.tv/subject/378862",
+    "matched": "exact"
+  },
+  "2023:跃动青春": {
+    "id": 357961,
+    "cover": "https://lain.bgm.tv/pic/cover/l/63/4e/357961_RtPiz.jpg",
+    "url": "https://bgm.tv/subject/357961",
+    "matched": "exact"
+  },
+  "2023:宝可梦 地平线": {
+    "id": 411247,
+    "cover": "https://lain.bgm.tv/pic/cover/l/12/1b/411247_tDc2P.jpg",
+    "url": "https://bgm.tv/subject/411247",
+    "matched": "exact"
+  },
+  "2023:香格里拉·弗陇提亚～屎作猎人向神作发起挑战～": {
+    "id": 390980,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ed/01/390980_3u0Bb.jpg",
+    "url": "https://bgm.tv/subject/390980",
+    "matched": "fuzzy"
+  },
+  "2023:无神世界的神明活动": {
+    "id": 377607,
+    "cover": "https://lain.bgm.tv/pic/cover/l/e5/59/377607_8w26i.jpg",
+    "url": "https://bgm.tv/subject/377607",
+    "matched": "exact"
+  },
+  "2023:我推的孩子": {
+    "id": 386809,
+    "cover": "https://lain.bgm.tv/pic/cover/l/98/5e/386809_1yR81.jpg",
+    "url": "https://bgm.tv/subject/386809",
+    "matched": "exact"
+  },
+  "2023:天国大魔境": {
+    "id": 404804,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ba/c9/404804_1sTp8.jpg",
+    "url": "https://bgm.tv/subject/404804",
+    "matched": "exact"
+  },
+  "2024:败犬女主太多了！": {
+    "id": 464376,
+    "cover": "https://lain.bgm.tv/pic/cover/l/e4/dc/464376_NsZRw.jpg",
+    "url": "https://bgm.tv/subject/464376",
+    "matched": "exact"
+  },
+  "2024:GIRLS BAND CRY": {
+    "id": 431767,
+    "cover": "https://lain.bgm.tv/pic/cover/l/75/c1/431767_bX7FZ.jpg",
+    "url": "https://bgm.tv/subject/431767",
+    "matched": "exact"
+  },
+  "2024:胆大党": {
+    "id": 467461,
+    "cover": "https://lain.bgm.tv/pic/cover/l/44/7d/467461_HHw4K.jpg",
+    "url": "https://bgm.tv/subject/467461",
+    "matched": "exact"
+  },
+  "2024:义妹生活": {
+    "id": 393037,
+    "cover": "https://lain.bgm.tv/pic/cover/l/40/01/393037_I7mvN.jpg",
+    "url": "https://bgm.tv/subject/393037",
+    "matched": "exact"
+  },
+  "2024:迷宫饭": {
+    "id": 395378,
+    "cover": "https://lain.bgm.tv/pic/cover/l/c5/88/395378_jztpO.jpg",
+    "url": "https://bgm.tv/subject/395378",
+    "matched": "exact"
+  },
+  "2024:我独自升级": {
+    "id": 390353,
+    "cover": "https://lain.bgm.tv/pic/cover/l/f5/2e/390353_07vz7.jpg",
+    "url": "https://bgm.tv/subject/390353",
+    "matched": "exact"
+  },
+  "2024:小市民系列": {
+    "id": 474906,
+    "cover": "https://lain.bgm.tv/pic/cover/l/e2/f4/474906_z0h44.jpg",
+    "url": "https://bgm.tv/subject/474906",
+    "matched": "exact"
+  },
+  "2024:梦想成为魔法少女": {
+    "id": 424663,
+    "cover": "https://lain.bgm.tv/pic/cover/l/96/d1/424663_mM5GN.jpg",
+    "url": "https://bgm.tv/subject/424663",
+    "matched": "exact"
+  },
+  "2024:青之箱": {
+    "id": 460306,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ab/e5/460306_s7Y8n.jpg",
+    "url": "https://bgm.tv/subject/460306",
+    "matched": "exact"
+  },
+  "2024:2.5次元的诱惑": {
+    "id": 410346,
+    "cover": "https://lain.bgm.tv/pic/cover/l/53/13/410346_MmQCm.jpg",
+    "url": "https://bgm.tv/subject/410346",
+    "matched": "exact"
+  },
+  "2024:地。 ―关于地球的运动―": {
+    "id": 389156,
+    "cover": "https://lain.bgm.tv/pic/cover/l/5f/84/389156_J4gqQ.jpg",
+    "url": "https://bgm.tv/subject/389156",
+    "matched": "exact"
+  },
+  "2024:失忆投捕": {
+    "id": 448478,
+    "cover": "https://lain.bgm.tv/pic/cover/l/70/80/448478_47IsZ.jpg",
+    "url": "https://bgm.tv/subject/448478",
+    "matched": "exact"
+  },
+  "2025:古诺希亚": {
+    "id": 526448,
+    "cover": "https://lain.bgm.tv/pic/cover/l/17/82/526448_ssr71.jpg",
+    "url": "https://bgm.tv/subject/526448",
+    "matched": "exact"
+  },
+  "2025:弹珠汽水瓶里的千岁同学": {
+    "id": 507634,
+    "cover": "https://lain.bgm.tv/pic/cover/l/7a/e8/507634_i9u9F.jpg",
+    "url": "https://bgm.tv/subject/507634",
+    "matched": "exact"
+  },
+  "2025:我们不可能成为恋人！绝对不行。 (※似乎可行？)": {
+    "id": 524707,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ae/03/524707_1quxk.jpg",
+    "url": "https://bgm.tv/subject/524707",
+    "matched": "exact"
+  },
+  "2025:金牌得主": {
+    "id": 430699,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ce/3c/430699_hsj90.jpg",
+    "url": "https://bgm.tv/subject/430699",
+    "matched": "exact"
+  },
+  "2025:琉璃的宝石": {
+    "id": 512190,
+    "cover": "https://lain.bgm.tv/pic/cover/l/27/d7/512190_3FtCT.jpg",
+    "url": "https://bgm.tv/subject/512190",
+    "matched": "exact"
+  },
+  "2025:末日后酒店": {
+    "id": 509986,
+    "cover": "https://lain.bgm.tv/pic/cover/l/6e/1a/509986_99qsc.jpg",
+    "url": "https://bgm.tv/subject/509986",
+    "matched": "exact"
+  },
+  "2025:拔作岛": {
+    "id": 477825,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ee/a3/477825_5H55M.jpg",
+    "url": "https://bgm.tv/subject/477825",
+    "matched": "exact"
+  },
+  "2025:时光流逝，饭菜依旧美味": {
+    "id": 531159,
+    "cover": "https://lain.bgm.tv/pic/cover/l/d3/5d/531159_BayD9.jpg",
+    "url": "https://bgm.tv/subject/531159",
+    "matched": "exact"
+  },
+  "2025:东岛丹三郎想成为假面骑士": {
+    "id": 542203,
+    "cover": "https://lain.bgm.tv/pic/cover/l/58/51/542203_YYfsF.jpg",
+    "url": "https://bgm.tv/subject/542203",
+    "matched": "exact"
+  },
+  "2025:薰香花朵凛然绽放": {
+    "id": 513345,
+    "cover": "https://lain.bgm.tv/pic/cover/l/b8/0d/513345_jv4wM.jpg",
+    "url": "https://bgm.tv/subject/513345",
+    "matched": "exact"
+  },
+  "2025:赛马娘 芦毛灰姑娘": {
+    "id": 509297,
+    "cover": "https://lain.bgm.tv/pic/cover/l/9e/fa/509297_VQ3P9.jpg",
+    "url": "https://bgm.tv/subject/509297",
+    "matched": "exact"
+  },
+  "2025:废渊战鬼": {
+    "id": 498947,
+    "cover": "https://lain.bgm.tv/pic/cover/l/ea/10/498947_x3ZvD.jpg",
+    "url": "https://bgm.tv/subject/498947",
+    "matched": "exact"
+  }
+}

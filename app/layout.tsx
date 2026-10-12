@@ -1,7 +1,15 @@
 import type { Metadata, Viewport } from "next"
 import type { ReactNode } from "react"
+import { Baloo_2 } from "next/font/google"
 import "./globals.css"
 import { SITE_URL } from "@/lib/site"
+
+const baloo = Baloo_2({
+  subsets: ["latin"],
+  weight: ["700", "800"],
+  variable: "--font-baloo",
+  display: "swap",
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -12,16 +20,7 @@ export const metadata: Metadata = {
   description:
     "回顾 2006 至 2025 年每年 bgm.tv 关注度最高的动画，附 Bangumi 封面。点击标记你看过的作品，一键生成锐评提示词或图片。",
   applicationName: "动画世代",
-  keywords: [
-    "动画",
-    "动漫",
-    "年度动画",
-    "bgm.tv",
-    "Bangumi",
-    "番剧",
-    "观看记录",
-    "anime",
-  ],
+  keywords: ["动画", "动漫", "年度动画", "bgm.tv", "Bangumi", "番剧", "观看记录", "anime"],
   robots: { index: true, follow: true },
   openGraph: {
     type: "website",
@@ -35,13 +34,16 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#ffffff",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#fff4dd" },
+    { media: "(prefers-color-scheme: dark)", color: "#2b2620" },
+  ],
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="zh-CN">
-      <body className="bg-white text-zinc-900 antialiased">{children}</body>
+    <html lang="zh-CN" className={baloo.variable}>
+      <body className="antialiased">{children}</body>
     </html>
   )
 }

@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
-import Link from "next/link"
 import { AnimeSedai } from "@/components/AnimeSedai"
-import { allYears } from "@/lib/anime"
+import { YearIndex } from "@/components/YearIndex"
 import { SITE_URL } from "@/lib/site"
 
 export const metadata: Metadata = {
@@ -28,24 +27,7 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <AnimeSedai />
-      <nav
-        aria-label="按年份浏览"
-        className="mx-auto max-w-6xl px-4 pb-12 sm:px-6"
-      >
-        <h2 className="mb-3 text-sm font-semibold text-zinc-500">按年份浏览</h2>
-        <ul className="flex flex-wrap gap-2 text-sm">
-          {allYears.map((year) => (
-            <li key={year}>
-              <Link
-                href={`/${year}`}
-                className="inline-block rounded border px-2 py-1 hover:bg-zinc-100"
-              >
-                {year}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      <YearIndex />
     </main>
   )
 }
