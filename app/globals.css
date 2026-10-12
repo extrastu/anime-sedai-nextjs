@@ -141,3 +141,7 @@
 .exporting .export-only {
   display: inline;
 }
+
+.exporting .table-scroll {
+  overflow: visible;
+}

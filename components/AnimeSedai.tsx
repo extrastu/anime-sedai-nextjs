@@ -17,7 +17,7 @@ import { getPromptTemplate, translations, type Language } from "@/lib/i18n"
 type YearRange = "5" | "10" | "15" | "all"
 type PromptType = "normal" | "zako"
 type ThemeMode = "system" | "light" | "dark"
-type DisplayMode = "cover" | "text"
+type DisplayMode = "cover" | "text" | "table"
 type TranslationKey = keyof typeof translations.zh
 
 const YEAR_RANGE_KEY: Record<YearRange, TranslationKey> = {
@@ -321,6 +321,7 @@ export function AnimeSedai() {
           options={[
             { value: "cover" as DisplayMode, label: "封面" },
             { value: "text" as DisplayMode, label: "文字" },
+            { value: "table" as DisplayMode, label: "表格" },
           ]}
           onChange={setDisplay}
         />
@@ -361,28 +362,41 @@ export function AnimeSedai() {
         ref={captureRef}
         className="w-full overflow-hidden rounded-[14px] border-2 border-ink bg-card shadow-hard"
       >
-        <div className="flex flex-col gap-2 border-b-2 border-ink p-4 sm:flex-row sm:items-center sm:justify-between">
-          <h2 className="font-display text-xl font-bold">
-            {t("title")}
-            <span className="remove text-sm font-normal text-ink-2"> · {t("subtitle")}</span>
-          </h2>
-          <div className="flex items-center gap-3 text-xs text-ink-2">
-            <Legend swatch="bg-mint" label={t("watched")} />
-            <Legend swatch="bg-empty" label={t("notWatched")} />
-            <span className="export-only font-mono text-ink">sedaiwall.vercel.app</span>
+        {display !== "table" && (
+          <div className="flex flex-col gap-2 border-b-2 border-ink p-4 sm:flex-row sm:items-center sm:justify-between">
+            <h2 className="font-display text-xl font-bold">
+              {t("title")}
+              <span className="remove text-sm font-normal text-ink-2"> · {t("subtitle")}</span>
+            </h2>
+            <div className="flex items-center gap-3 text-xs text-ink-2">
+              <Legend swatch="bg-mint" label={t("watched")} />
+              <Legend swatch="bg-empty" label={t("notWatched")} />
+              <span className="export-only font-mono text-ink">sedaiwall.vercel.app</span>
+            </div>
           </div>
-        </div>
+        )}
 
-        {visibleYears.map((year) => (
-          <YearRow
-            key={year}
-            year={year}
+        {display === "table" ? (
+          <TableView
+            years={visibleYears}
             language={language}
             selectedSet={selectedSet}
-            mode={display}
             onToggle={toggle}
+            title={t("title")}
+            statLabel={(watched, total) => t("watchedStat", { watched, total })}
           />
-        ))}
+        ) : (
+          visibleYears.map((year) => (
+            <YearRow
+              key={year}
+              year={year}
+              language={language}
+              selectedSet={selectedSet}
+              mode={display}
+              onToggle={toggle}
+            />
+          ))
+        )}
       </section>
 
       {/* Prompt */}
@@ -586,6 +600,93 @@ function Legend({ swatch, label }: { swatch: string; label: string }) {
       <span className={`size-3 rounded-sm border-2 border-ink ${swatch}`} />
       {label}
     </span>
+  )
+}
+
+/* Grid table in the reference style: red year cell, green watched cell. */
+function TableView({
+  years,
+  language,
+  selectedSet,
+  onToggle,
+  title,
+  statLabel,
+}: {
+  years: string[]
+  language: Language
+  selectedSet: Set<string>
+  onToggle: (key: string) => void
+  title: string
+  statLabel: (watched: number, total: number) => string
+}) {
+  let total = 0
+  let watched = 0
+  for (const year of years) {
+    for (const item of (animeData[year] ?? []).slice(0, TOP_N)) {
+      total++
+      if (selectedSet.has(getAnimeTitle(item, "zh"))) watched++
+    }
+  }
+
+  return (
+    <div className="table-scroll overflow-x-auto">
+      <table className="w-full min-w-[760px] table-fixed border-collapse border-2 border-ink text-center">
+        <colgroup>
+          <col style={{ width: "6rem" }} />
+          {Array.from({ length: TOP_N }, (_, i) => (
+            <col key={i} />
+          ))}
+        </colgroup>
+        <thead>
+          <tr>
+            <th colSpan={TOP_N + 1} className="border-2 border-ink bg-card p-3 text-left">
+              <div className="flex items-baseline justify-between gap-4">
+                <span className="font-display text-xl font-extrabold">
+                  {title}
+                  <span className="ml-3 font-mono text-xs font-normal text-ink-2">sedaiwall.vercel.app</span>
+                </span>
+                <span className="font-display text-base font-extrabold">{statLabel(watched, total)}</span>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {years.map((year) => {
+            const items = (animeData[year] ?? []).slice(0, TOP_N)
+            return (
+              <tr key={year}>
+                <th className="border-2 border-ink bg-[#ff2e2e] py-2 font-display text-lg font-extrabold text-white">
+                  {year}
+                </th>
+                {Array.from({ length: TOP_N }, (_, i) => {
+                  const item = items[i]
+                  if (!item) return <td key={i} className="border-2 border-ink bg-card" />
+                  const key = getAnimeTitle(item, "zh")
+                  const name = getAnimeTitle(item, language)
+                  const checked = selectedSet.has(key)
+                  return (
+                    <td
+                      key={i}
+                      className={`border-2 border-ink p-0 ${checked ? "bg-[#16c05a]" : "bg-card"}`}
+                    >
+                      <button
+                        type="button"
+                        aria-pressed={checked}
+                        title={name}
+                        onClick={() => onToggle(key)}
+                        className="flex h-20 w-full items-center justify-center p-1 text-xs font-semibold leading-tight text-ink sm:text-sm"
+                      >
+                        <span className="line-clamp-3">{name}</span>
+                      </button>
+                    </td>
+                  )
+                })}
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+    </div>
   )
 }
 
