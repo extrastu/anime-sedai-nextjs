@@ -369,6 +369,7 @@ export function AnimeSedai() {
           <div className="flex items-center gap-3 text-xs text-ink-2">
             <Legend swatch="bg-mint" label={t("watched")} />
             <Legend swatch="bg-empty" label={t("notWatched")} />
+            <span className="export-only font-mono text-ink">sedaiwall.vercel.app</span>
           </div>
         </div>
 

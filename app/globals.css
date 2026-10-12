@@ -133,3 +133,11 @@
     transform: none;
   }
 }
+
+/* Shown only inside the exported image (see .exporting on the wall). */
+.export-only {
+  display: none;
+}
+.exporting .export-only {
+  display: inline;
+}
