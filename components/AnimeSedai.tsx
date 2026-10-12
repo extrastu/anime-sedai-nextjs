@@ -394,7 +394,7 @@ export function AnimeSedai() {
       </section>
 
       {/* Prompt */}
-      <section className="mx-auto w-full max-w-5xl overflow-hidden rounded-[14px] border-2 border-ink bg-card shadow-hard">
+      <section className="w-full overflow-hidden rounded-[14px] border-2 border-ink bg-card shadow-hard">
         <div className="flex flex-col gap-3 border-b-2 border-ink p-3 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
             <span className="font-display text-lg font-bold">{t("promptType")}</span>
