@@ -13,6 +13,7 @@ const baloo = Baloo_2({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  verification: { google: "fmgce_RNpeUSw6KWbPoH5ifqwZ1LL_cXuQ2Huac8ttE" },
   title: {
     default: "动画世代 | Anime Sedai",
     template: "%s | 动画世代",
