@@ -3,6 +3,7 @@ import type { ReactNode } from "react"
 import { Baloo_2 } from "next/font/google"
 import "./globals.css"
 import { SITE_URL } from "@/lib/site"
+import { Analytics } from "@vercel/analytics/next"
 
 const baloo = Baloo_2({
   subsets: ["latin"],
@@ -44,7 +45,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="zh-CN" className={baloo.variable}>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
