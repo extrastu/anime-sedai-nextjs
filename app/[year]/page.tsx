@@ -24,11 +24,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `${year}年最受关注的动画`
   const description = `${year}年 bgm.tv 关注度最高的 ${Math.min(items.length, TOP_N)} 部动画：${names}。`
 
+  const cover = getCover(year, items[0])
+
   return {
     title,
     description,
     alternates: { canonical: `/${year}` },
-    openGraph: { title: `${title} | 动画世代`, description, url: `/${year}` },
+    openGraph: {
+      title: `${title} | 动画世代`,
+      description,
+      url: `/${year}`,
+      images: cover ? [{ url: cover.cover, alt: `${year} 年第一名封面` }] : undefined,
+    },
+    twitter: { card: "summary_large_image" },
   }
 }
 
@@ -55,11 +63,24 @@ export default async function YearPage({ params }: Props) {
     })),
   }
 
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "动画世代", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: `${year}年`, item: `${SITE_URL}/${year}` },
+    ],
+  }
+
   return (
     <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       <nav className="flex items-center gap-2 text-sm text-ink-2">

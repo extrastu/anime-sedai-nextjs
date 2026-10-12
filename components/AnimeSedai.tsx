@@ -149,10 +149,6 @@ export function AnimeSedai() {
   )
 
   useEffect(() => {
-    document.title = t("title")
-  }, [t])
-
-  useEffect(() => {
     const root = document.documentElement
     if (theme === "system") root.removeAttribute("data-theme")
     else root.setAttribute("data-theme", theme)
@@ -261,9 +257,9 @@ export function AnimeSedai() {
       {/* Header */}
       <header className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-3">
-          <span className="grid size-12 shrink-0 place-items-center rounded-xl border-2 border-ink bg-sun font-display text-2xl font-extrabold text-on-pastel shadow-hard-sm">
-            动
-          </span>
+          {/* same mark as app/icon.svg (favicon) */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/icon.svg" alt="" width={48} height={48} className="size-12 shrink-0" />
           <div>
             <p className="font-display text-3xl font-extrabold leading-none">{t("title")}</p>
             <p className="mt-1 text-sm text-ink-2">{t("subtitle")}</p>
@@ -435,6 +431,26 @@ export function AnimeSedai() {
           {link}
         </a>
         {after}
+      </p>
+
+      <p className="text-center font-mono text-xs text-ink-3">
+        <a
+          href="https://github.com/extrastu/anime-sedai-nextjs"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2 hover:text-ink"
+        >
+          GitHub
+        </a>
+        {" · Made by "}
+        <a
+          href="https://x.com/iextrastu"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2 hover:text-ink"
+        >
+          @extrastu
+        </a>
       </p>
     </div>
   )
