@@ -400,7 +400,7 @@ export function AnimeSedai() {
       </section>
 
       {/* Prompt */}
-      <section className="mx-auto w-full max-w-3xl overflow-hidden rounded-[14px] border-2 border-ink bg-card shadow-hard">
+      <section className="mx-auto w-full max-w-5xl overflow-hidden rounded-[14px] border-2 border-ink bg-card shadow-hard">
         <div className="flex flex-col gap-3 border-b-2 border-ink p-3 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
             <span className="font-display text-lg font-bold">{t("promptType")}</span>
@@ -414,7 +414,7 @@ export function AnimeSedai() {
               onChange={setPromptType}
             />
           </div>
-          <div className="flex gap-2">
+          <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
             <ActionButton small onClick={() => {
               void copyPrompt()
             }}>
@@ -424,6 +424,16 @@ export function AnimeSedai() {
               location.href = `chatwise://chat?input=${encodeURIComponent(prompt)}`
             }}>
               {t("openInChatWise")}
+            </ActionButton>
+            <ActionButton small onClick={() =>
+              window.open(`https://claude.ai/new?q=${encodeURIComponent(prompt)}`, "_blank", "noopener,noreferrer")
+            }>
+              {t("openInClaude")}
+            </ActionButton>
+            <ActionButton small onClick={() =>
+              window.open(`https://chatgpt.com/?q=${encodeURIComponent(prompt)}`, "_blank", "noopener,noreferrer")
+            }>
+              {t("openInChatGPT")}
             </ActionButton>
           </div>
         </div>
@@ -563,7 +573,7 @@ function ActionButton({
     <button
       type="button"
       onClick={onClick}
-      className={`press inline-flex items-center gap-2 rounded-full border-2 border-ink font-bold shadow-hard-sm ${tone} ${
+      className={`press inline-flex items-center justify-center gap-2 rounded-full border-2 border-ink text-center font-bold shadow-hard-sm ${tone} ${
         small ? "px-3 py-1 text-xs" : "px-4 py-2 text-sm"
       }`}
     >
